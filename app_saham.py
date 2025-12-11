@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # --- 1. KONFIGURASI HALAMAN WEB ---
-st.set_page_config(layout="wide", page_title="Dashboard Saham Indonesia")
+st.set_page_config(layout="wide", page_title="Dashboard Saham Dunia")
 
 # Judul Utama
 st.title('Dashboard Analisis Saham Indonesia 🇮🇩')
@@ -185,3 +185,4 @@ if st.sidebar.button('🚀 Tampilkan Analisis'):
 else:
     # Tampilan Awal sebelum tombol ditekan
     st.info("👈 Silakan pilih saham di menu sebelah kiri dan tekan tombol 'Tampilkan Analisis'")
+
